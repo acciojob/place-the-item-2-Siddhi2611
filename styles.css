@@ -1,2 +1,8 @@
-
-/* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center; /* helps vertically center multiple rows */
+  height: 100vh; /* full viewport height to allow vertical centering */
+}
